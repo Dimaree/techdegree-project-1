@@ -22,6 +22,21 @@ a:hover {
 }
 
 /* Section Styles */
+.card {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.card a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
 
 .main-nav {
   width: 100%;
@@ -150,14 +165,11 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+a.facebook {
+  background-image: url(images/Facebook-logo.png);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/github-logo.png);
 }
 a.social:hover {
   opacity: 1;
