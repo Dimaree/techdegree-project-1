@@ -1,1 +1,1 @@
-This is my first Techdegree project!
+This is my first Tech-degree project!
