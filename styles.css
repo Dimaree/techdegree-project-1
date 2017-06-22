@@ -3,6 +3,20 @@
   box-sizing: border-box;
 }
 
+h2 {
+  text-align: center;
+}
+
+.name:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.location:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -67,12 +81,14 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
+  transform: scale(1.2);
   color: white
 }
 
 header {
   text-align: center;
   background: url('images/clouds.jpg') no-repeat top center ;
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -83,9 +99,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 100%;
+  border-top: 5px solid white;
+  transition: all 0.5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -112,8 +128,15 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
-  border-color: #ff99ff;
+  transform: scale(1.2);
+  border-color: skyblue;
+}
+
+.skills:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
 }
 
 ul.skills {
@@ -154,7 +177,6 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
-
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -184,7 +206,7 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
-      max-width: 1200px;
+      max-width: 100%;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
@@ -213,5 +235,3 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
